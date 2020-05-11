@@ -1,15 +1,18 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { createGlobalStyle } from "styled-components"
+import Navbar from "./globals/Navbar"
 
 const Layout = ({ children }) => {
   return (
     <React.Fragment>
       <GlobalStyle />
+      <Navbar />
       {children}
     </React.Fragment>
   )
 }
+
 const GlobalStyle = createGlobalStyle`
 *{
   margin:0;
