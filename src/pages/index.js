@@ -1,11 +1,13 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { HomeHeader } from "../utils"
+import img from "../images/bcg/homeBcg.jpeg"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h3>Index Page</h3>
+    <HomeHeader img={img}>hello from index Home Header</HomeHeader>
   </Layout>
 )
 export default IndexPage
