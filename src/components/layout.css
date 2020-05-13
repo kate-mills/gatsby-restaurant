@@ -1,13 +1,1 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-:root{
-  --mainOrange: #f15025;
-}
-body {
-  font-family: 'Caveat', cursive;
-  color: black;
-  background: white;;
-}
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');

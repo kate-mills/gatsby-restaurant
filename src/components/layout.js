@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import "./layout.css"
 import { createGlobalStyle } from "styled-components"
 import Navbar from "./globals/Navbar"
 
