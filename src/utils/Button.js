@@ -9,7 +9,6 @@ const BannerButton = styled.button`
   font-size: 1.5rem;
   letter-spacing: 0.5rem;
   font-weight: 700;
-  margin-top: 1rem;
   ${styles.border({ color: `${styles.colors.mainWhite}` })};
   ${styles.transition({})};
   &:hover {
@@ -18,4 +17,12 @@ const BannerButton = styled.button`
     cursor: pointer;
   }
 `
-export { BannerButton }
+const SectionButton = styled(BannerButton)`
+  color: ${styles.colors.mainBlack};
+  ${styles.border({ color: `${styles.colors.mainBlack}` })};
+  &:hover {
+    background: ${styles.colors.mainBlack};
+    color: ${styles.colors.mainYellow};
+  }
+`
+export { BannerButton, SectionButton }
