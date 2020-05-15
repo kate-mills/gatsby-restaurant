@@ -37,7 +37,7 @@ export default class Footer extends Component {
           })}
         </div>
         <p className="copyright">
-          copyright &copy;{new Date().getFullYear()} eatery
+          all rights reserved, &copy;{new Date().getFullYear()}
         </p>
       </FooterWrapper>
     )
@@ -65,6 +65,7 @@ const FooterWrapper = styled.footer`
     text-transform: capitalize;
     text-align: center;
     margin: 1rem 0;
+    font-weight: 200;
   }
   .title {
     color: ${styles.colors.mainYellow};
