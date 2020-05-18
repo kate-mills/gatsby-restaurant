@@ -13,8 +13,8 @@ export const Title = ({ title, message }) => {
 }
 
 Title.defaultProps = {
-  message: "default message",
-  title: "default title",
+  message: "message={default message}",
+  title: " title={default title}",
 }
 
 const TitleWrapper = styled.div`
