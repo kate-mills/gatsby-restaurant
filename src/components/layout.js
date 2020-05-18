@@ -27,6 +27,10 @@ body{
   color: #262626;
   background: #fff;
 }
+a{
+  text-decoration:none;
+  display: contents;
+}
 `
 Layout.propTypes = {
   children: PropTypes.node.isRequired,

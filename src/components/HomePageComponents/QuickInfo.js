@@ -22,10 +22,7 @@ export default class QuickInfo extends Component {
             and more recently with desktop publishing software like Aldus
             PageMaker including versions of Lorem Ipsum.
           </p>
-          <Link
-            to="/about/"
-            style={{ textDecoration: "none", display: "contents" }}
-          >
+          <Link to="/about/">
             <SectionButton style={{ margin: "2rem auto" }}>about</SectionButton>
           </Link>
         </QuickInfoInnerWrapper>

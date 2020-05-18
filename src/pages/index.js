@@ -14,10 +14,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <HomeHeader img={img}>
       <Banner title="eatery" subtitle="36 blue street - Santa Monica, ca">
-        <Link
-          to="/about/"
-          style={{ textDecoration: "none", display: "contents" }}
-        >
+        <Link to="/menu/">
           <BannerButton style={{ margin: "2rem auto" }}>menu</BannerButton>
         </Link>
       </Banner>
