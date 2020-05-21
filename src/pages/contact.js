@@ -11,7 +11,7 @@ const ContactPage = () => (
       <Banner title="contact us" subtitle={`we'd love to hear from you`} />
     </PageHeader>
     <Section>
-      <form name="contact" action="" netlify >
+      <form name="third-contact-us" action="" netlify >
         <input  name="form-name" value="contact" />
         <p hidden><label> Don’t fill this out: <input name="bot-field" /></label></p>
         <p>
