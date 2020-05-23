@@ -2,12 +2,11 @@ import React from "react"
 import styled from "styled-components"
 import { styles } from "../utils"
 
-export default function Banner({ title, subtitle, children }) {
+export default function Banner({ title, subtitle }) {
   return (
     <BannerWrapper>
       <h1 className="title">{title}</h1>
       <h3 className="subtitle">{subtitle}</h3>
-      {children}
     </BannerWrapper>
   )
 }
