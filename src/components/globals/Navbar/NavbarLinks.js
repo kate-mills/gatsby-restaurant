@@ -35,7 +35,7 @@ export default class NavbarLinks extends Component {
           return (
             <li key={item.id}>
               <Link className="nav-link" to={item.path}>
-                {item.name}{" "}
+                {item.name}
               </Link>
             </li>
           )
